@@ -1,12 +1,21 @@
-body
-{
-  background-color: black
-  background-image: url()
-}
 html {
   background: src("pix/nebula.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+body {
+  background-color: black
+  width: 85%
+  margin: 0 auto;
+}
+
+#main{
+  
+}
+
+#second{
+
 }
