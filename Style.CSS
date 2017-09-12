@@ -1,6 +1,6 @@
 html {
 
-    background-image: url(".git/pix/nebula.jpg");
+    background-image: url("pix/nebula.jpg");
     background-repeat: repeat-y;
     background-size: 100%;
 }
@@ -32,7 +32,7 @@ color:cyan;
 
 p{
   color:white;
-  border: 15px solid black;
+  border: 25px solid black;
 }
 
 h1{
