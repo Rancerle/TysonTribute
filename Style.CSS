@@ -1,15 +1,21 @@
 html {
-  background: src("pix/nebula.jpg"); no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
+    background-image: url(".git/pix/nebula.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
 }
 
 body {
-  background-color: black;
   width: 85%;
   margin: 0 auto;
+  background-color: black;
+}
+
+img{
+  width: 50%;
+  margin: auto;
+  display: block;
+  align-content: center;
 }
 
 a{
@@ -24,6 +30,20 @@ color:cyan;
   font-family: sans-serif;
 }
 
-#disclamer{
+p{
+  color:white;
+  border: 15px solid black;
+}
 
+h1{
+  color:white;
+  text-align: center;
+}
+
+h6{
+  color:white;
+}
+
+footer{
+font-size: 8px;
 }
