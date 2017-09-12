@@ -1,3 +1,8 @@
+
+*, *::after{
+  box-sizing: border-box;
+}
+
 html {
 
     background-image: url("pix/nebula.jpg");
@@ -15,7 +20,6 @@ img{
   width: 50%;
   margin: auto;
   display: block;
-  align-content: center;
 }
 
 a{
@@ -44,6 +48,23 @@ h6{
   color:white;
 }
 
+.bottom {
+  display:inline-block;
+}
+#quote{
+  float: left;
+  width: 49%
+}
+
+.bottom p{
+  float: left;
+  width: 49%
+}
+.bottom::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 footer{
 font-size: 8px;
 }
