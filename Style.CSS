@@ -8,7 +8,7 @@ html {
 
 body {
   background-color: black;
-  width: 85%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -22,6 +22,18 @@ color:cyan;
 
 #main{
   font-family: sans-serif;
+}
+
+p{
+  color:white;
+}
+
+h1{
+  color:white;
+}
+
+h6{
+  color:white;
 }
 
 #disclamer{
