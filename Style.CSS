@@ -44,8 +44,34 @@ h1{
   text-align: center;
 }
 
-h6{
+h2{
   color:white;
+  text-align: center;
+}
+
+.quotes {
+  display:inline-block;
+}
+
+li{
+  color:white;
+  font-family: sans-serif;
+}
+
+#left{
+  float: left;
+  width: 49%
+}
+
+#right{
+  float: left;
+  width: 49%
+}
+
+.quotes::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .bottom {
@@ -65,6 +91,7 @@ h6{
   clear: both;
   display: table;
 }
+
 footer{
 font-size: 8px;
 }
